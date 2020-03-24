@@ -1,0 +1,24 @@
+﻿UI Developer Skills Test
+
+Objective:
+Your task is to build the home page for a fictitious client. The scenario is:
+
+The client has provided a design for both mobile and desktop sizes.  You'll need to improvise any breaks in between.
+The client has requested a small change to the design as provided.  They'd like a new block below the video block, similar in design, that lists a series of 3 up-coming events.  Using the existing design, you'll need to build this to match the look and feel you've been given.
+
+A basic starter site has been provided. Take the time you need, but this is meant to be a relatively small exercise that could be completed in an evening or two. It is time to let your front-end development skills shine!
+
+What we are looking for:
+Responsive. The site should be usable and look nice on small (mobile) screens all the way up to large (desktop) screens.
+Accessible. Shoot for a WCAG AA compliance.
+Modular. Well structured, HTML and CSS built with reuse, content manageability, and maintainability in mind. This is more important than a bunch of flashy CSS tricks.
+
+What to deliver:
+Once you have a home page in a good place, simply send us a link to a GIT repo, or a ZIP of all the HTML, CSS, JS, and other assets for the page. You can also provide a test URL of the page if you want, but that isn’t required.
+
+What to expect:
+Once we have a chance to review your submission, we will get back to you with feedback. We will make every effort to be timely in our review. No one likes to be left wondering, so we will provide comments on your work regardless of whether you are finally selected for the position.
+
+Thank you for taking the time to show us your skills, and have fun!
+
+Please note: this is for demonstration purposes only and is owned by Blend Interactive. Use in any personal professional portfolio is prohibited.
