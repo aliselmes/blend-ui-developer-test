@@ -38,7 +38,7 @@
 // Import custom project scss partials here
 @import "project/example";
 
-/*GLOBAL STYLES*/
+/* GLOBAL STYLES */
 
 html {
     
@@ -54,7 +54,7 @@ body {
   }
 
   main {
-    padding-top: 70px;
+    padding-top: 65px;
 }
 
 section {
@@ -98,6 +98,7 @@ section {
     overflow: hidden;
     background-color: #fff;
     float: right;
+    padding-top: 3px;
   }
   
   .header li a {
@@ -137,6 +138,7 @@ section {
     padding: 28px 20px;
     position: relative;
     user-select: none;
+    margin: 7px 0px 0px 0px;
   }
   
   .header .menu-icon .navicon {
@@ -230,22 +232,6 @@ section {
 
   @media only screen and (min-width: 768px) {
 
-    /* header */
-
-    .header li {
-      float: left;
-    }
-    .header li a {
-      padding: 20px 30px;
-    }
-    .header .menu {
-      clear: none;
-      float: right;
-      max-height: none;
-    }
-    .header .menu-icon {
-      display: none;
-    }
   
     /* Hero Area */
 
@@ -264,6 +250,28 @@ section {
   /* DESKTOP STYLES */
 
     @media only screen and (min-width: 1200px) {
+
+    /* header */
+
+    .header li {
+        float: left;
+      }
+
+    .header li a {
+        padding: 20px 30px;
+      }
+
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+      }
+
+    .header .menu-icon {
+        display: none;
+      }
+
+     /* Hero */ 
     
     #hero-container {
         height: 500px;
