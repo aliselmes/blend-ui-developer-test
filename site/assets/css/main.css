@@ -524,6 +524,17 @@ section {
 
     /* Get Started */
 
+    #get-started-img-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #get-started-img-div img {
+        height: 80%;
+        width: 80%;
+    }
+
     #get-started-text h3 {
         font-size: 1.8em;
     }
@@ -551,9 +562,16 @@ section {
     }
 
     #testimonial-video-div {
-        height: 300px;
-        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
     }
+
+    #testimonial-video-div iframe {
+        height: 100%;
+    }
+
 
   }
 
