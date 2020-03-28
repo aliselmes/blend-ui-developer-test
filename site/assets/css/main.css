@@ -475,6 +475,102 @@ section {
      color: #028740;
  }
 
+ /*FOOTER STYLES*/
+
+ /*Social Section*/
+
+
+ #social-section {
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #028740;
+    color: #fff;
+ }
+
+ #social-section a {
+     color: #fff;
+ }
+
+ .social-div {
+     width: 90%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     text-align: center;
+     padding-bottom: 40px;
+ }
+
+ .social-div h5 {
+     font-weight: bold;
+     margin-bottom: 30px;
+ }
+
+ .social-div span {
+     text-decoration: underline;
+ }
+
+ #social-border-div {
+     border-top: 1px solid #409c68;
+     border-bottom: 1px solid #409c68;
+     padding: 40px 0;
+ }
+
+ #social-border-div input {
+     padding: 15px 10px;
+     border-radius: 5%;
+ }
+
+ #email-submit-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ #follow-div {
+     padding-top: 40px;
+ }
+
+ #submit-button p {
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 12px 20px 12px 20px;
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    margin-top: 25px;
+ }
+
+ #social-icons {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+ }
+
+ .fab {
+     color: #028740;
+     background-color: #fff;
+     padding: 10px;
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     font-size: 1.5em;
+     text-align: center;
+ }
+
+ .fa-facebook-f, .fa-youtube, .fa-twitter, .fa-instagram, .fa-linkedin-in {
+     padding-top: 12px;
+     margin: 0px 5px;
+     text-align: center;
+ }
+
+
 
 
 /* -----END MOBILE STYLES----- */
@@ -573,6 +669,19 @@ section {
         height: 60%;
     }
 
+    /*Social*/
+
+    #email-submit-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    #email-submit-div input {
+        margin-right: 10px;
+    }
+
   }
 
 
@@ -620,7 +729,7 @@ section {
     }
 
     .step {
-        padding: 75px;
+        padding: 50px;
     }
 
     /* Get Started */
@@ -691,6 +800,42 @@ section {
 
     #faq-container {
         padding: 70px 0;
+    }
+
+    /*Social*/
+
+    #social-section {
+        display: grid;
+        grid-template-columns: 30fr 30fr 30fr;
+        width: 100%;
+    }
+
+    .social-div {
+        text-align: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    #social-border-div, #follow-div {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+
+    #social-border-div {
+        border-top: none;
+        border-bottom: none;
+        border-left: 1px solid #409c68;
+        border-right: 1px solid #409c68;
+    }
+
+    #email-submit-div input {
+        margin: 0px 10px;
+    }
+
+    #email-submit-div p {
+        margin: 0;
     }
 
 
