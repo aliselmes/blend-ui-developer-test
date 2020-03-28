@@ -422,6 +422,22 @@ section {
      margin: 0 0 0 25px;
  }
 
+ .time, .location {
+     margin-left: 25px;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     flex-direction: row;
+ }
+
+ .time i, .location i {
+     margin-right: 10px;
+ }
+
+ .time p, .location p {
+     margin: 0;
+ }
+
  #more-events-button p {
     color: #fff;
     border: 3px solid #fff;
@@ -432,6 +448,32 @@ section {
     margin-top: 25px;
  }
 
+ /*FAQ STYLES*/
+
+#faq-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    background-color: #f5f4f2;
+ }
+
+ #faq-container {
+    width: 90%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ #faq-container h3 {
+     text-align: center;
+ }
+
+ #faq-container p {
+     color: #028740;
+ }
 
 
 
@@ -643,6 +685,12 @@ section {
 
     .date p {
         padding: 0px 10px;
+    }
+
+    /*FAQ*/
+
+    #faq-container {
+        padding: 70px 0;
     }
 
 
