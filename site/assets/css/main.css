@@ -38,7 +38,7 @@
 // Import custom project scss partials here
 @import "project/example";
 
-/* GLOBAL STYLES */
+/* ------GLOBAL STYLES------- */
 
 html {
     
@@ -72,10 +72,18 @@ section {
     color: #000;
   }
 
-  /*END STYLES*/
+  iframe {
+      width: 100%;
+  }
+
+  img {
+      width: 100%;
+  }
+
+  /*END GLOBAL STYLES*/
 
 
-  /* MOBILE STYLES */
+  /* ------MOBILE STYLES------- */
 
   
   /*HEADER STYLES*/
@@ -197,7 +205,7 @@ section {
   }
   
   
-  /*END HEADER STYLES*/
+
 
   /*HERO AREA STYLES*/
 
@@ -226,9 +234,71 @@ section {
       padding: 10px;
   }
 
+  
+
+  /*STEPS STYLES*/
+
+  #steps-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+#steps-section h1, h3, h4, span, a {
+    font-weight: bold;
+    
+}
+
+#steps-section h1, h3, h4, p a {
+    margin-bottom: 25px;
+}
+
+#steps-section h1 {
+    font-size: 120px;
+}
+
+#steps-section a {
+    color: #028740;
+}
+
+#final-step p {
+    padding-bottom: 25px;
+}
+
+#steps-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#learn-more-button p {
+    border: 3px solid #028740;
+    padding: 12px 40px 12px 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+#view-plans-button p {
+    color: #fff;
+    padding: 12px 40px 12px 40px;
+    border-radius: 50px;
+    background-color: #d81118;
+}
+
+  /*GET STARTED STYLES*/
+
+ 
 
 
-/* TABLET STYLES */
+
+/* -----END MOBILE STYLES----- */
+
+
+/* ------TABLET STYLES------ */
   
 
   @media only screen and (min-width: 768px) {
@@ -245,10 +315,46 @@ section {
         background-size: cover;
       }
 
+    /* Get Started */
+
+    #call-out {
+        width: 80%;
+    }
+
+    #steps-wrapper {
+        display: grid;
+        grid-template-columns: 5fr 5fr;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        margin: 25px 0px 50px 0px;
+    }
+
+    .step {
+        padding: 25px;
+    }
+    
+    #call-out-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #step1, #step3 {
+        border-right: 1px solid #dadad3;
+    }
+
+    #step3, #final-step {
+        border-top: 1px solid #dadad3;
+    }
   }
 
 
-  /* DESKTOP STYLES */
+  /* -------END TABLET STYLES------ */
+
+  /* -------DESKTOP STYLES------- */
 
     @media only screen and (min-width: 1200px) {
 
@@ -283,7 +389,19 @@ section {
         border: 2px solid #fff;
     }
 
+    /* Get Started */
+
+    #call-out {
+        width: 70%;
+    }
+
+    .step {
+        padding: 75px;
+    }
+
   }
+
+  /* -------END DESKTOP STYLES------ */
 
   
 
