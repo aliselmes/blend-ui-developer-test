@@ -110,20 +110,28 @@ section {
     list-style: none;
     overflow: hidden;
     background-color: #fff;
-    float: right;
     padding-top: 3px;
+    overflow: scroll;
   }
   
   .header li a {
     display: block;
-    padding: 20px 20px;
+    padding: 10px 20px;
     border-right: 1px solid #f4f4f4;
     text-decoration: none;
+    font-weight: normal;
   }
   
   .header li a:hover,
   .header .menu-btn:hover {
-    background-color: #f4f4f4;
+    color: #000;
+    border-left: 3px solid #028740;
+  }
+
+  .header li p {
+      font-weight: bold;
+      margin: 0;
+      padding: 10px 20px;
   }
   
   .header .logo {
@@ -132,6 +140,36 @@ section {
     font-size: 2em;
     padding: 10px 20px;
     text-decoration: none;
+  }
+
+  #join-button p {
+    color: #fff;
+    padding: 12px 20px 12px 20px;
+    border-radius: 50px;
+    background-color: #d81118;
+    width: 200px;
+    text-align: center;
+  }
+
+  #join-button:hover {
+    border-left: none;
+  }
+
+  #log-in-button p {
+    color: #028740;
+    padding: 12px 20px 12px 20px;
+    border-radius: 50px;
+    border: 2px solid #028740;
+    width: 200px;
+    text-align: center;
+  }
+
+  #log-in-button:hover {
+    border-left: none;
+  }
+
+  .header li i {
+      margin-left: 5px;
   }
   
   /* menu */
@@ -189,7 +227,7 @@ section {
   }
   
   .header .menu-btn:checked ~ .menu {
-    max-height: 240px;
+    max-height: 500px;
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {
