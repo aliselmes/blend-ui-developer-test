@@ -92,6 +92,10 @@ section {
 
   
   /*HEADER STYLES*/
+
+  .desktop-menu {
+      display: none;
+  }
   
   .header {
     background-color: #fff;
@@ -880,8 +884,6 @@ section {
         margin: 0;
     }
 
-    
-
 
 
   }
@@ -895,23 +897,65 @@ section {
 
     /* header */
 
-    .header li {
-        float: left;
-      }
+    .header {
+        display: grid;
+        grid-template-columns: 30fr 40fr 30fr;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        font-size: 0.8em;
+    }
 
-    .header li a {
-        padding: 20px 30px;
-      }
+    .desktop-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .header ul {
+        margin: 0;
+    }
 
     .header .menu {
-        clear: none;
-        float: right;
-        max-height: none;
+        display: none;
       }
 
     .header .menu-icon {
         display: none;
       }
+
+    .header li a {
+        border-right:none;
+    }
+
+    .header li a:hover {
+        border-left: none;
+    }
+
+    #log-in-button, #join-button {
+          padding: 0;
+      }
+
+      #log-in-button p, #join-button p {
+          padding: 10px 20px 10px 20px;
+          font-size: 0.8em;
+      }
+
+
+      #log-in-button p {
+          color: #000;
+          border: none;
+          margin-right: 10px;
+      }
+
+      #join-button p {
+          margin-right: 10px;
+          width: 100px;
+      }
+
+
 
      /* Hero */ 
     
